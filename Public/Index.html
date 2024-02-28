@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Tailwind || Achmad Ainoer Yakin</title>
+    <link rel="stylesheet" href="Style.css" />
+    <!-- font -->
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet" />
+    <!-- Protest Riot -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <header class=" absolute top-0 left-0 z-0 flex w-full items-center bg-transparent">
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg font-Sixtyfour block py-6 text-Green hover:underline"> <span class="">Freyaaa</span></a>
+          </div>
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"> </span>
+            <span class="hamburger-line transition duration-300 ease-in-out"> </span>
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"> </span>
+          </button>
+          <nav id="nav-menu" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none lg:dark:bg-transparent">
+            <ul class="block lg:flex">
+              <li class="group">
+                <a href="#Home" class="text-base flex text-red-500 py-2 mx-8 group-hover:text-Green">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="#AboutMe" class="text-base flex text-red-500 py-2 mx-8 group-hover:text-Green">About Me</a>
+              </li>
+              <li class="group">
+                <a href="#Galeri" class="text-base flex text-red-500 py-2 mx-8 group-hover:text-Green">Galeri</a>
+              </li>
+              <li class="group">
+                <a href="#Thanks" class="text-base flex text-red-500 py-2 mx-8 group-hover:text-Green">Blog</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="Home" class="pt-36 bg-Navy">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-base font-semibold md:text-xl lg:text-2xl text-Teal">
+              Halo Semua🙌, Aku
+              <span class="block text-white text-lg font-Sixtyfour sm:text-xl md:text-2xl lg:text-2xl xl:text-4xl">Freya Jayawardana</span>
+            </h1>
+            <h2 class="font-medium text-lg mb-5 text-red-500">Seorang Penyanyi Dan Penari Indonesia</h2>
+            <p class="mb-10 capitalize mx-auto text-justify ml-5 font-medium text-2xl md:max-w-lg text-Sage">
+              <q> Gadis koleris yang suka berimajinasi, terangi harimu dengan senyum karamelku. Halo semua, Aku Freya! </q>
+            </p>
+            <a href="#" class="text-base font-semibold text-white bg-Green transition duration-300 ease-in-out py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 hover:text-black">Hubungi Saya</a>
+          </div>
+  
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10 relative lg:right-0 lg:mt-9">
+              <img src="../Src/Freya.png" alt="Freya" class="z-50 relative max-w-full mx-auto" />
+              <span class=" absolute bottom-0 top-5 right-64 left-1/2 -translate-x-48 md:scale-125">
+                <svg height="400" width="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#2D9596" d="M32.7,-60.4C43,-50.6,52.6,-43.2,61.8,-33.6C71,-23.9,79.9,-12,79.2,-0.4C78.4,11.1,68,22.2,61.2,36.1C54.4,49.9,51.3,66.6,41.7,72.8C32.1,78.9,16,74.5,1.8,71.4C-12.5,68.3,-24.9,66.5,-38.9,62.9C-52.9,59.3,-68.4,53.9,-74.2,43.1C-80,32.3,-76,16.2,-76.2,-0.2C-76.5,-16.5,-81.1,-33,-76,-45C-70.9,-57,-56.3,-64.5,-42,-72.1C-27.7,-79.7,-13.9,-87.3,-1.4,-85C11.1,-82.6,22.3,-70.3,32.7,-60.4Z" transform="translate(100 100) scale(1.1)" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="AboutMe" class="pt-36 pb-32 bg-Dark">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="font-bold uppercase font-sans text-Sage text-xl lg:text-3xl mb-3 text-center">About Me</h4>
+            <h2 class="capitalize font-bold font-mono text-Teal text-3xl mb-5">Yuk Mengenal freya lebih jauh</h2>
+            <p class="font-medium text-base text-slate-500 text-justify max-w-xl"><span class="font-bold text-white">Raden Rara Freyanashifa Jayawardana</span> (lahir 13 Februari 2006), dikenal secara profesional sebagai Freya Jayawardana dan mononim sebagai Freya, adalah seorang penyanyi dan penari Indonesia, dan seorang anggota grup idola JKT48 generasi ketujuh yang diperkenalkan pada tahun 2018.</p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3 class="font-bold uppercase text-xl font-sans text-Sage text-center lg:text-3xl lg:mb-[68px]">Sosial Media</h3>
+            <p class="font-medium text-base max-w-xl lg:mt-[104px] mt-5 xl:mt-5 text-justify text-slate-500 mb-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi aspernatur autem mollitia a nam dolores!</p>
+            <div class="flex items-center justify-center gap-5 max-w-xl">
+              <!-- INSTAGRAM -->
+              <a href="https://www.instagram.com/jkt48.freya/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-Green hover:border-Sage text-white hover:bg-Green hover:text-Sage hover:opacity-80">
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>Instagram</title>
+                  <path
+                    d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                  />
+                </svg>
+              </a>
+              <!-- Twitter -->
+              <a href="https://twitter.com/Freya_JKT48?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-Green hover:border-Sage text-white hover:bg-Green hover:text-Sage hover:opacity-80">
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>X</title>
+                  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+                </svg>
+              </a>
+              <!-- Tiktok -->
+              <a href="https://www.tiktok.com/@freyajkt48" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-Green hover:border-Sage text-white hover:bg-Green hover:text-Sage hover:opacity-80">
+                <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <title>TikTok</title>
+                  <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="Galeri" class="pt-36 pb-16 bg-Navy">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold font-sans text-3xl text-Teal mb-6">Galeri Terbaru</h2>
+            <p class="capitalize font-medium text-Sage">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum suscipit voluptas commodi reprehenderit soluta consequatur.</p>
+          </div>
+        </div>
+
+        <!-- Galeri -->
+        <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-2xl overflow-hidden">
+              <img src="/Src/Galeri/Freya1.jpg" alt="Freya" class="w-[600px] h-[315px] object-scale-down hover:opacity-50">
+            </div>
+            <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Freya Jayawardana</h3>
+            <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque odio eligendi?</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-2xl overflow-hidden">
+              <img src="/Src/Galeri/Freya2.jpg" alt="Freya" class="w-[600px] h-[315px] object-scale-down hover:opacity-50">
+            </div>
+            <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Freya Jayawardana</h3>
+            <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque odio eligendi?</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-2xl overflow-hidden">
+              <img src="/Src/Galeri/Freya3.jpg" alt="Freya" class="w-[600px] h-[315px] object-scale-down hover:opacity-50">
+            </div>
+            <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Freya Jayawardana</h3>
+            <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque odio eligendi?</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-2xl overflow-hidden">
+              <img src="/Src/Galeri/Freya4.jpg" alt="Freya" class="w-[600px] h-[315px] object-scale-down hover:opacity-50">
+            </div>
+            <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Freya Jayawardana</h3>
+            <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque odio eligendi?</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-2xl overflow-hidden">
+              <img src="/Src/Galeri/Freya5.jpg" alt="Freya" class="w-[600px] h-[315px] object-scale-down hover:opacity-50">
+            </div>
+            <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Freya Jayawardana</h3>
+            <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque odio eligendi?</p>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-2xl overflow-hidden">
+              <img src="/Src/Galeri/Freya6.jpg" alt="Freya" class="w-[600px] h-[315px] object-scale-down hover:opacity-50">
+            </div>
+            <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Freya Jayawardana</h3>
+            <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque odio eligendi?</p>
+          </div>
+          <div class="mb-12 -mt-12 p-4 md:w-1/2 flex flex-col items-center">
+            <div class="rounded-md shadow-2xl overflow-hidden" style="transform: rotate(-90deg);">
+              <iframe id="videoFrame" src="/Src/Galeri/fe906d46b1673f1a269112de12538842.mp4?autoplay=false" frameborder="0" class="aspect-video w-[300px] h-[350px]" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+            <h3 class="font-semibold text-xl text-center text-white mt-0 mb-3">Freya Jayawardana</h3>
+            <p class="font-medium text-base text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit itaque odio eligendi?</p>
+          </div>                   
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="Blog" class="pt-36 pb-32 bg-Green">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold font-sans text-3xl text-Dark mb-6">Hot News</h2>
+            <p class="capitalize font-medium text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum suscipit voluptas commodi reprehenderit soluta consequatur.</p>
+          </div>
+        </div>
+        <!-- Hot News -->
+        <div class="flex flex-wrap ">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-Navy rounded-xl overflow-hidden shadow-2xl mb-10">
+              <img src="/Src/News/Hot1.jpg" alt="Freya" class="w-full h-[350px] object-cover">
+              <div class="py-8 px-6">
+                <h3>
+                  <a href="#" class="block mb-3 text-center font-sans font-semibold text-2xl text-Dark hover:text-Sage">Freya Melet</a>
+                </h3>
+                <p class="content font-medium text-Green text-base mb-6 truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis fugit totam, ipsam accusantium pariatur ab dicta temporibus eveniet dolorum?</p>
+                <a class="read-more font-medium text-sm text-white bg-blue-900 hover:bg-blue-200 hover:text-Dark py-3 px-4 rounded-lg">Baca lebih lanjut</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-Navy rounded-xl overflow-hidden shadow-2xl mb-10">
+              <img src="/Src/News/Hot2.jpg" alt="Freya" class="w-full h-[350px] object-cover object-top">
+              <div class="py-8 px-6">
+                <h3>
+                  <a href="#" class="block mb-3 text-center font-sans font-semibold text-2xl text-Dark hover:text-Sage">Freya x Erigo</a>
+                </h3>
+                <p class="content font-medium text-Green text-base mb-6 truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis fugit totam, ipsam accusantium pariatur ab dicta temporibus eveniet dolorum?</p>
+                <a class="read-more font-medium text-sm text-white bg-blue-900 hover:bg-blue-200 hover:text-Dark py-3 px-4 rounded-lg">Baca lebih lanjut</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-Navy rounded-xl overflow-hidden shadow-2xl mb-10 ">
+              <img src="/Src/News/Hot3.jpg" alt="Freya" class="w-full h-[350px] object-cover object-center">
+              <div class="py-8 px-6">
+                <h3>
+                  <a href="#" class="block mb-3 text-center font-sans font-semibold text-2xl text-Dark hover:text-Sage">Freya Senyum</a>
+                </h3>
+                <p class="content font-medium text-Green text-base mb-6 truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis fugit totam, ipsam accusantium pariatur ab dicta temporibus eveniet dolorum?</p>
+                <a class="read-more font-medium text-sm text-white bg-blue-900 hover:bg-blue-200 hover:text-Dark py-3 px-4 rounded-lg">Baca lebih lanjut</a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3 mx-auto">
+            <div class="bg-Navy rounded-xl overflow-hidden shadow-2xl mb-10">
+              <img src="/Src/News/Hot4.jpg" alt="Freya" class="w-full h-[350px] object-cover object-center">
+              <div class="py-8 px-6">
+                <h3>
+                  <a href="#" class="block mb-3 text-center font-sans font-semibold text-2xl text-Dark hover:text-Sage">Freya Nyanyi</a>
+                </h3>
+                <p class="content font-medium text-Green text-base mb-6 truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam officiis fugit totam, ipsam accusantium pariatur ab dicta temporibus eveniet dolorum?</p>
+                <a class="read-more font-medium text-sm text-white bg-blue-900 hover:bg-blue-200 hover:text-Dark py-3 px-4 rounded-lg">Baca lebih lanjut</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Thanks You Section -->
+    <section id="Thanks" class="pt-36 pb-32 bg-Dark">
+      <div class="container">
+        <div class="w-full px4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold font-sans text-3xl text-Teal mb-2">Thanks You</h2>
+            <h4 class="font-semibold mb-4 text-2xl text-Green">Sponsorship</h4>
+            <p class="capitalize font-medium text-Sage">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum suscipit voluptas commodi reprehenderit soluta consequatur.</p>
+          </div>
+        </div>
+        <!-- Logo -->
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a href="#" class="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="/Src/Sponsorship/JKT48.svg" alt="JKT48">
+            </a>
+            <a href="#" class="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="/Src/Sponsorship/BNK48_Office_Company_logo.svg" alt="JKT48">
+            </a>
+            <a href="#" class="max-w-[100px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <img src="/Src/Sponsorship/AKB48_Logo.svg" alt="JKT48">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-Navy pt-24 pb-12">
+      <div class="container ">
+        <div class="flex  flex-wrap">
+          <div class="w-full px-4 mb-12 text-white font-medium md:w-1/3">
+            <h2 class="font-bold text-2xl mb-5 font-sans text-Dark">Penggemarmu</h2>
+            <h3 class="font-bold text-xl mb-2">AAYCIAHNK</h3>
+            <p>Bolsheflix21@Gmail.com</p>
+            <p>Yogyakarta</p>
+          </div>
+          <div class="w-full px-4 font-medium mb-12 md:w-1/3">
+            <h2 class="font-bold text-2xl text-Dark font-sans mb-7">Wota Lain</h2>
+            <ul class="text-white">
+              <li>
+                <a href="#" class="inline-block text-base hover:text-Dark mb-3">Shani Indira</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base hover:text-Dark mb-3">Angelina Christy</a>
+              </li>
+              <li>
+                <a href="#" class="inline-block text-base hover:text-Dark mb-3">Gita Sekar Andarini</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h2 class="font-bold text-2xl  font-sans mb-7 text-Dark">Tautan</h2>
+            <ul class="text-white">
+              <li>
+                <a href="#Home" class="inline-block text-base hover:text-Dark mb-3">Home</a>
+              </li>
+              <li>
+                <a href="#AboutMe" class="inline-block text-base hover:text-Dark mb-3">About Me</a>
+              </li>
+              <li>
+                <a href="#Galeri" class="inline-block text-base hover:text-Dark mb-3">Galeri</a>
+              </li>
+              <li>
+                <a href="#Blog" class="inline-block text-base hover:text-Dark mb-3">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full pt-10 border-t border-Sage">
+          <div class="flex items-center justify-center mb-5">
+            <!-- INSTAGRAM -->
+            <a href="https://www.instagram.com/jkt48.freya/" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-Green hover:border-Sage text-white hover:bg-Green hover:text-Sage hover:opacity-80">
+              <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Instagram</title>
+                <path
+                  d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                />
+              </svg>
+            </a>
+            <!-- Twitter -->
+            <a href="https://twitter.com/Freya_JKT48?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-Green hover:border-Sage text-white hover:bg-Green hover:text-Sage hover:opacity-80">
+              <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>X</title>
+                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+              </svg>
+            </a>
+            <!-- Tiktok -->
+            <a href="https://www.tiktok.com/@freyajkt48" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-Green hover:border-Sage text-white hover:bg-Green hover:text-Sage hover:opacity-80">
+              <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>TikTok</title>
+                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
+              </svg>
+            </a>
+          </div>
+            <p class="font-medium text-sm text-Teal text-center">Dibuat Oleh Penggemar <span class="text-red-500 text-md font-bold">Freya</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Start -->
+    <a href="#Home" id="to-top" class="fixed hidden hover:animate-bounce justify-center items-center p-4 z-[9999] bottom-0 right-2 h-14 w-14 bg-secondary rounded-full">
+      <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+    </a>
+    <!-- Javascript -->
+    <script 
+      src="/Src/script.js">
+    </script>
+  </body>
+</html>
